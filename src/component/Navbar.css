@@ -29,7 +29,11 @@
     display: flex;
 }
 
-.navbar-right-item li {
+.navbar-right-item Link {
+    text-decoration: none;
+}
+
+.navbar-right-itemlink {
     color: #bab8b8a6;
     list-style: none;
     padding: 8px 27px;
@@ -37,10 +41,11 @@
     border-radius: 3px;
     cursor: pointer;
     font-size: 19px;
+
 }
 
 
-.navbar-right-item li:hover {
+.navbar-right-itemlink:hover {
     background-color: #c1c2ca47;
     color: #dad4d4;
 }

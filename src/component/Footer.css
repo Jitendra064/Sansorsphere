@@ -1,0 +1,32 @@
+.FooterContainer {
+    background-color: #070740;
+    color: rgb(239, 241, 243);
+    min-width: 100%;
+
+}
+
+.FooterQuickLink h3 {
+    margin: 10px 0px 30px 0px;
+}
+
+.FooterQuickLink li {
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+    margin: 10px 0px;
+}
+
+.FooterQuickLink li:hover {
+
+    text-decoration: underline;
+}
+
+.FooterEnd p {
+    background-color: #472d60;
+    color: #fafafa;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
