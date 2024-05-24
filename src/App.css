@@ -13,6 +13,79 @@
 }
 
 
+
+
+/* Products page Css */
+
+
+
+
+.ProductsHeaderSearch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+
+}
+
+.ProductsHeaderSearch h1 {
+  font-size: 40px;
+  text-align: start;
+  font-weight: 800;
+  border-bottom: 4px solid black;
+
+}
+
+.ProductsHeaderSearch input {
+  width: 20rem;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #aa9f9fa3;
+
+}
+
+.SearchButton {
+  width: 9rem;
+  margin-top: 10px;
+  height: 45px;
+  border-radius: 6px;
+  margin: 0px 5px;
+  background-color: darkblue;
+  color: #fff;
+  border: none;
+}
+
+
+
+.ProductsHeaderSearch input:focus {
+  border: none;
+}
+
+
+
+
+/* Accordian Css  */
+
+
+.FAQcss {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* .Accodiancss {
+  border: 1px solid black;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent,
+} */
+
+
+
+
+
 @media screen and (max-width:100px) {
   .CarouselImage img {
     width: 100%;
@@ -41,6 +114,29 @@
   .FooterEnd {
     font-size: 10px;
     height: 30px;
+  }
+
+
+  .ProductsHeaderSearch {
+    flex-direction: column;
+  }
+
+  .ProductsHeaderSearch input {
+    width: 15rem;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 0px;
+  }
+
+  .SearchButton {
+    width: 4rem;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0px 10px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
   }
 
 
