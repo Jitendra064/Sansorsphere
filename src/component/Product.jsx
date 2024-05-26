@@ -33,10 +33,14 @@ const Product = () => {
           </button>
         </div>
       </div>
-      <div class="row row-col-2 row-cols-sm-2 row-cols-md-3 g-4 w-100 justify-content-evenly mb-2">
-        {filterArray.map((data, index) => (
-          <DemoCard key={index} data={data} />
-        ))}
+      <div
+        style={{ display: "flex", justifyContent: "center", width: "100vw" }}
+      >
+        <div class=" row row-col-2 row-cols-sm-2 row-cols-md-3 g-4 w-100  justify-content-evenly mb-2">
+          {filterArray.map((data, index) => (
+            <DemoCard key={index} data={data} />
+          ))}
+        </div>
       </div>
     </>
   );
