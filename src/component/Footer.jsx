@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -34,11 +35,15 @@ const Footer = () => {
         <div className="col-md-4 col-sm-10 d-flex justify-content-evenly">
           <div className=" FooterQuickLink mt-3">
             <h3>Quick Links</h3>
-            <li>Home</li>
-            <li>AboutUs</li>
-            <li>Products</li>
-            <li>FAQ's</li>
-            <li>ContactUs</li>
+            <Link>
+              <Link to="/">Home</Link>
+            </Link>
+            <Link to="/about">AboutUs</Link>
+
+            <Link to="/products">Products</Link>
+            <Link to="/faq">FAQ's</Link>
+
+            <Link>ContactUs</Link>
           </div>
           <div className=" FooterQuickLink mt-3">
             <h3>Other Links</h3>

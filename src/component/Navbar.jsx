@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
@@ -28,6 +29,61 @@ const Navbar = () => {
             <button>Login</button>
             <button>Signup</button>
           </p>
+        </div>
+
+        {/*
+        
+        
+        Phone width ke liye offcanvas added 
+        
+        
+        */}
+        <div className="nav-right-new">
+          <img
+            width="40"
+            height="40"
+            src="https://img.icons8.com/sf-black/64/FFFFFF/menu.png"
+            alt="menu"
+            data-bs-toggle="offcanvas"
+            href="#offcanvasExample"
+            role="button"
+            aria-controls="offcanvasExample"
+          />
+          <div
+            className="offcanvas offcanvas-start bg-dark text-light"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            {" "}
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasExampleLabel">
+                Offcanvas
+              </h5>
+              <div>
+                <img
+                  type="button"
+                  width="30"
+                  height="30"
+                  src="https://img.icons8.com/external-flat-icons-inmotus-design/67/FFFFFF/external-Close-antivirus-flat-icons-inmotus-design.png"
+                  alt="external-Close-antivirus-flat-icons-inmotus-design"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                  className="btn-close text-reset text-light"
+                />
+              </div>
+            </div>
+            <div className="offcanvas-body">
+              <div className="offcanasbody">
+                <Link to="/">Home</Link>
+                <Link to="/about">about</Link>
+                <Link to="/products">Products</Link>
+                <Link to="/faq">FAQ's</Link>
+                <Link to="/logout">logOut</Link>
+                <Link to="signup">Signup</Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

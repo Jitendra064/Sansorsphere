@@ -5,19 +5,42 @@
 
 }
 
+.FooterQuickLink {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
 .FooterQuickLink h3 {
     margin: 10px 0px 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.FooterQuickLink a {
+    color: #fafafa;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 300;
 }
 
 .FooterQuickLink li {
+    list-style: none;
     cursor: pointer;
     list-style: none;
     text-align: center;
     margin-top: 5px;
     margin: 10px 0px;
+    font-weight: 300;
 }
 
-.FooterQuickLink li:hover {
+.FooterQuickLink a:hover {
 
     text-decoration: underline;
 }
