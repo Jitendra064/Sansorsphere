@@ -38,10 +38,9 @@ const Product = () => {
           display: "flex",
           justifyContent: "center",
           width: "100%",
-          background: "red",
         }}
       >
-        <div class=" row row-col-2 row-cols-sm-2 row-cols-md-3 g-4 w-100  justify-content-evenly mb-2 ">
+        <div class=" row row-col-2 row-cols-sm-2 row-cols-md-3 g-4 w-100 d-flex  justify-content-evenly mb-2 ">
           {filterArray.map((data, index) => (
             <DemoCard key={index} data={data} />
           ))}
