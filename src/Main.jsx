@@ -6,6 +6,8 @@ import FAQ from "./component/FAQ";
 import Products from "./component/Product";
 import Home from "./component/Home";
 import { About } from "./component/About";
+import Login from "./component/Login";
+import Signup from "./component/Signup";
 
 const Main = () => {
   return (
@@ -16,6 +18,8 @@ const Main = () => {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer />
     </BrowserRouter>

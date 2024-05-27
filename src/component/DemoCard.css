@@ -16,6 +16,8 @@
     margin: 6px 4px;
 }
 
+
+
 @media (min-width:500px) and (max-width:640px) {
     .DemoCard {
         padding: 0px;
@@ -30,7 +32,7 @@
 
     .DemoCard {
         padding: 0px;
-        width: 11rem;
+        width: 12rem;
         min-height: 27vh;
 
 
@@ -67,5 +69,25 @@
 
     .DemoCardbtnHeader {
         min-width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .DemoCard {
+        padding: 0px;
+        width: 11.2rem;
+        min-height: 27vh;
+
+
+    }
+}
+
+@media screen and (max-width:450px) {
+    .DemoCard {
+        padding: 0px;
+        width: 12rem;
+        min-height: 27vh;
+
+
     }
 }

@@ -66,7 +66,7 @@ const Carousel = () => {
             aria-label="Slide 9"
           ></button>
         </div>
-        <div class="carousel-inner CarouselImage">
+        <div class="carousel-inner CarouselImage ">
           <div class="carousel-item active">
             <img
               src="./img/carousel_img4.jpg"

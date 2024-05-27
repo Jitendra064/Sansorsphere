@@ -1,0 +1,156 @@
+.aboutimges {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.aboutHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutHeading h1 {
+    font-size: 40px;
+    text-align: start;
+    width: 110px;
+    font-weight: 800;
+    border-bottom: 4px solid black;
+}
+
+.aboutimges img {
+    width: 24vw;
+    height: 30%;
+    margin: 10px 10px;
+}
+
+.firstimgcol img {
+    width: 100%;
+    height: 55vh;
+}
+
+.firsttextcol h3 {
+    font-size: 35px;
+}
+
+.firsttextcol p {
+    font-size: 19px;
+}
+
+@media screen and (max-width :1190px) {
+    .firsttextcol p {
+        font-size: 1.4vw;
+    }
+
+    .aboutimges img {
+        width: 48vh;
+    }
+}
+
+@media screen and (max-width :1090px) {
+    .firstimgcol img {
+
+        height: 48vh;
+    }
+
+    .aboutimges img {
+        width: 40vh;
+    }
+}
+
+
+@media (min-width:778px) and (max-width :890px) {
+    .firstimgcol img {
+        height: 39vh;
+    }
+
+    .aboutimges img {
+        width: 35vh;
+    }
+}
+
+@media (min-width :530px) and (max-width :778px) {
+    .firstimgcol img {
+        height: 84vh;
+        width: 84%;
+    }
+
+    .aboutimges img {
+        width: 23vh;
+    }
+
+    .firstimgcol {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firsttextcol {
+        padding: 20px 50px;
+    }
+
+    .firsttextcol p {
+        font-size: 2vw;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width :530px) {
+    .firstimgcol img {
+        height: 55vh;
+        width: 88%;
+    }
+
+
+
+    .firstimgcol {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firsttextcol {
+        padding: 10px 50px;
+    }
+
+    .firsttextcol p {
+        font-size: 15px;
+    }
+
+    .aboutimges img {
+        width: 48vh;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width :430px) {
+    .firstimgcol img {
+        height: 25vh;
+        width: 100%;
+    }
+
+    .firstimgcol {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firsttextcol {
+        padding: 10px 50px;
+    }
+
+    .firsttextcol {
+        padding: 10px 12px;
+        margin-bottom: 2px;
+    }
+
+    .firsttextcol p {
+        font-size: 14px;
+    }
+
+    .aboutimges img {
+        width: 46vh;
+        height: 30%;
+    }
+}

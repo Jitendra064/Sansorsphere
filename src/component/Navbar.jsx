@@ -1,8 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const loginpage = () => {
+    navigate("/login");
+  };
+  const signuppage = () => {
+    navigate("/signup");
+  };
   return (
     <>
       <div className="navbar-header ">
@@ -26,8 +34,8 @@ const Navbar = () => {
               <li className="navbar-right-itemlink">FAQ'S</li>
             </Link>
 
-            <button>Login</button>
-            <button>Signup</button>
+            <button onClick={loginpage}>Login</button>
+            <button onClick={signuppage}>Signup</button>
           </p>
         </div>
 
@@ -79,8 +87,8 @@ const Navbar = () => {
                 <Link to="/about">about</Link>
                 <Link to="/products">Products</Link>
                 <Link to="/faq">FAQ's</Link>
-                <Link to="/logout">logOut</Link>
-                <Link to="signup">Signup</Link>
+                <Link to="/login">logOut</Link>
+                <Link to="/signup">Signup</Link>
               </div>
             </div>
           </div>
