@@ -1,6 +1,7 @@
 .DemoCard {
     width: 20rem;
     padding: 10px;
+    margin: 5px 5px;
 }
 
 
@@ -85,8 +86,9 @@
 @media screen and (max-width:450px) {
     .DemoCard {
         padding: 0px;
-        width: 12rem;
+        width: 11rem;
         min-height: 27vh;
+        margin-left: 2px;
 
 
     }
