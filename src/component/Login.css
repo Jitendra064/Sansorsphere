@@ -132,9 +132,9 @@
     box-shadow: 0px 1px 60px blue;
 }
 
-@media Screen and (max-width:900px) {
+@media (min-width:700px) and (max-width:900px) {
     .OuterSignupForm {
-        min-height: 115vh;
+        min-height: 100vh;
     }
 
     .formPageCss {
@@ -142,7 +142,25 @@
         top: 10px;
     }
 
-    /* .OuterLoginForm {} */
+
+}
+
+@media Screen and (max-width:700px) {
+    .OuterSignupForm {
+        min-height: 60vh;
+    }
+
+    .formPageCss {
+        position: absolute;
+        top: 10px;
+    }
+
+    .OuterLoginForm {
+        height: 50vh;
+    }
+
+
+
 }
 
 @media Screen and (max-width:500px) {
@@ -154,5 +172,29 @@
         position: absolute;
         top: 10px;
     }
+
+    .OuterLoginForm {
+        height: 50vh;
+    }
+
+
+
+}
+
+@media Screen and (max-width:400px) {
+    .OuterSignupForm {
+        min-height: 97vh;
+    }
+
+    .formPageCss {
+        position: absolute;
+        top: 10px;
+    }
+
+    .OuterLoginForm {
+        min-height: 63vh;
+    }
+
+
 
 }

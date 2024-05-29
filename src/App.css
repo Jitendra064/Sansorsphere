@@ -125,14 +125,7 @@
     top: 91px;
   }
 
-  .OuterLoginForm {
-    height: 40vh;
-  }
 
-  .OuterSignupForm {
-    min-height: 70vh;
-
-  }
 }
 
 @media screen and (max-width:766px) {
@@ -166,14 +159,7 @@
     top: 80px;
   }
 
-  .OuterLoginForm {
-    height: 59vh;
-  }
 
-  .OuterSignupForm {
-    min-height: 80vh;
-
-  }
 
 }
 
@@ -230,12 +216,5 @@
     top: 80px;
   }
 
-  .OuterLoginForm {
-    height: 60vh;
-  }
 
-  .OuterSignupForm {
-    min-height: 80vh;
-
-  }
 }
