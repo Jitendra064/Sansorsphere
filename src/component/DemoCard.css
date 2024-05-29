@@ -4,6 +4,10 @@
     margin: 5px 5px;
 }
 
+.CarouselImage img {
+    width: 100%;
+    height: 90vh;
+}
 
 
 .DemoCardbtn {
@@ -17,23 +21,36 @@
     margin: 6px 4px;
 }
 
+@media screen and (max-width:900px) {
 
+    .CarouselImage img {
+        width: 35vh;
+    }
+}
 
-@media (min-width:500px) and (max-width:640px) {
+@media screen and (max-width:660px) {
     .DemoCard {
         padding: 0px;
-        width: 16rem;
+        width: 48vw;
         min-height: 27vh;
 
     }
+
+    .CarouselImage img {
+        width: 100%;
+        height: 70vh;
+    }
 }
+
+
+
 
 @media screen and (max-width:500px) {
 
 
     .DemoCard {
         padding: 0px;
-        width: 12rem;
+        width: 46vw;
         min-height: 27vh;
 
 
@@ -45,7 +62,7 @@
 
     .DemoCard img {
         width: 100%;
-        max-height: 20vh;
+        max-height: 40vh;
     }
 
     .card-body h5 {
@@ -71,25 +88,40 @@
     .DemoCardbtnHeader {
         min-width: 100%;
     }
+
+    .CarouselImage img {
+        width: 100%;
+        height: 65vh;
+    }
 }
 
 @media screen and (max-width:400px) {
     .DemoCard {
         padding: 0px;
-        width: 11.2rem;
+        width: 47vw;
         min-height: 27vh;
 
 
     }
+
+    .DemoCard img {
+
+        max-height: 49vh;
+    }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:366px) {
     .DemoCard {
         padding: 0px;
-        width: 11rem;
+        width: 97vw;
         min-height: 27vh;
         margin-left: 2px;
 
 
+    }
+
+    .CarouselImage img {
+        width: 100%;
+        height: 45vh;
     }
 }

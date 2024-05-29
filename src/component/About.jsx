@@ -22,10 +22,10 @@ export const About = () => {
       </div>
 
       <div className="row  justify-content-evenly my-5  container-fluid">
-        <div className="col-lg-4  col-md-4  firstimgcol">
+        <div className="col-lg-4  col-md-5  firstimgcol">
           <img src="./img/about-1.jpg" alt="" />
         </div>
-        <div className="col-lg-4 col-md-4  firsttextcol ">
+        <div className="col-lg-4 col-md-5  firsttextcol ">
           <div className="">
             <h3>Our Mission</h3>
             <p>
@@ -40,7 +40,7 @@ export const About = () => {
         </div>
       </div>
       <div className="row  justify-content-evenly my-5  container-fluid">
-        <div className="col-lg-4  col-md-4 firsttextcol">
+        <div className="col-lg-4  col-md-5 firsttextcol">
           <div className="">
             <h3>Our Mission</h3>
             <p>
@@ -53,15 +53,15 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 firstimgcol">
+        <div className="col-lg-4 col-md-5 firstimgcol">
           <img src="./img/about-2.jpg" alt="" />
         </div>
       </div>
       <div className="row  justify-content-evenly my-5  container-fluid">
-        <div className="col-lg-4  col-md-4  firstimgcol">
+        <div className="col-lg-4  col-md-5  firstimgcol">
           <img src="./img/about-3.jpg" alt="" />
         </div>
-        <div className="col-lg-4 col-md-4  firsttextcol">
+        <div className="col-lg-4 col-md-5  firsttextcol">
           <div className="">
             <h3>Our Mission</h3>
             <p>
@@ -76,7 +76,7 @@ export const About = () => {
         </div>
       </div>
       <div className="row  justify-content-evenly my-5 container-fluid">
-        <div className="col-lg-4  col-md-4 firsttextcol">
+        <div className="col-lg-4  col-md-5 firsttextcol">
           <div className="">
             <h3>Our Mission</h3>
             <p>
@@ -89,7 +89,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 firstimgcol">
+        <div className="col-lg-4 col-md-5 firstimgcol">
           <img src="./img/about-4.jpg" alt="" />
         </div>
       </div>

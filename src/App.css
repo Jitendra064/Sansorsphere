@@ -5,13 +5,6 @@
 
 
 
-.CarouselImage img {
-  width: 100%;
-  height: 92vh;
-}
-
-
-
 .ProductsHeadline span {
   font-size: 40px;
   text-align: center;
@@ -84,6 +77,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  /* background-color: aqua; */
+  min-height: 100vh;
 }
 
 /* .Accodiancss {
@@ -93,6 +88,9 @@
   background-color: transparent,
 } */
 
+.FAQcss p {
+  margin: 10px 0px;
+}
 
 
 
@@ -118,16 +116,27 @@
 
   }
 
-  .CarouselImage img {
-    width: 40vh;
+
+
+  .formPageCss {
+    width: 580px;
+
+    position: absolute;
+    top: 91px;
+  }
+
+  .OuterLoginForm {
+    height: 40vh;
+  }
+
+  .OuterSignupForm {
+    min-height: 70vh;
+
   }
 }
 
 @media screen and (max-width:766px) {
-  .CarouselImage img {
-    width: 100%;
-    height: 60vh;
-  }
+
 
   .FooterEnd {
     font-size: 10px;
@@ -150,14 +159,37 @@
     display: none;
   }
 
-}
+  .formPageCss {
+    width: 90vw;
 
-@media screen and (max-width:500px) {
-  .CarouselImage img {
-    width: 100%;
-    height: 50vh;
+    position: absolute;
+    top: 80px;
   }
 
+  .OuterLoginForm {
+    height: 59vh;
+  }
+
+  .OuterSignupForm {
+    min-height: 80vh;
+
+  }
+
+}
+
+@media screen and (max-width:550px) {
+  .DemoCard {
+    padding: 0px;
+    width: 16rem;
+    min-height: 27vh;
+
+  }
+
+}
+
+
+
+@media screen and (max-width:500px) {
   .FooterEnd {
     font-size: 10px;
     height: 30px;
@@ -186,12 +218,24 @@
     border: none;
   }
 
-  .CarouselImage img {
-    width: 100%;
-    height: 40vh;
-  }
 
   .offcanvas {
     width: 26vh;
+  }
+
+  .formPageCss {
+    width: 90vw;
+
+    position: absolute;
+    top: 80px;
+  }
+
+  .OuterLoginForm {
+    height: 60vh;
+  }
+
+  .OuterSignupForm {
+    min-height: 80vh;
+
   }
 }

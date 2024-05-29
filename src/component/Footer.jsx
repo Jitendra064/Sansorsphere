@@ -17,15 +17,15 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-4 col-sm-10">
-          <div className="mt-3">
+        <div className="col-lg-4 col-md-4 col-sm-10 jk89i">
+          <div className="mt-3 ">
             <h1>Latest News</h1>
-            <p className="">
+            <p className="p78v">
               <img src="./img/card_img-1.jpeg" width="70px" alt="" />
               <br />
               this is the new image on the site on configer
             </p>
-            <p>
+            <p className="p78v">
               <img src="./img/card_img-1.jpeg" width="70px" alt="" />
               <br />
               this is the new image on the site on configer
